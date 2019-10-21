@@ -56,8 +56,7 @@ Notes on power:
    with the controller even though the maximum voltage for the Arduino is 12V.
 
  Notes on I2C:
- - The screw terminal JP11 allows for connection to a "Master" Arduino (see github.com/lowhnn/FiolabAquaria), or
-   to an I2C-enabled LCD screen. 
+ - The screw terminal JP11 allows for connection to a "Master" Arduino, or to an I2C-enabled LCD screen. 
  
  
  List of Arduino UNO/Atmega328 pins used by the shield and the code:
@@ -100,10 +99,10 @@ This is a quick overview of what the code does:
       resets in the middle of an experiment (e.g., power loss) this allows the ramp to start from 
       where it left off. 
     - It retrieves sensor calibration coefficients from the files TCAL.TXT, DOCAL.TXT, and PHCAL.TXT 
-      for use in converting the ADC output to tank variables. See the calibration sample code 
-      (github.com/lowhnn/XXXXX).
-    Note: the list of settings text files and the format of the text files can be found in the README
-    files on the SD cards themselves. 
+      for use in converting the ADC output to tank variables. See the calibration sample code on the 
+      Github repository.
+      
+    Note: Sample text files for the SD card and a readme are available on the Github repository.
 
 (3) [optional based on user selection] - I2C communications to another Arduino or an I2C-compatible 
     LCD screen are initialised.
@@ -178,9 +177,6 @@ the most likely modifications we anticipate:
      - Enter the appropriate number of parameters in the sensor coefficient files on the SD card (TCAL.TXT, 
        DOCAL.TXT, PHCAL.TXT)
     
-
-
-
 
 
 */

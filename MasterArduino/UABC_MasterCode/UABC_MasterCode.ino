@@ -15,11 +15,11 @@ repository (github.com/lowhnn/tank_controllers).
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-This implementation of the control system includes four tank controllers 
-(github.com/lowhnn/tank_controllers/TankController), connected on an I2C bus to an Arduino Mega
-2560 fitted with a W5500 Ethernet Shield. The Arduino Mega is also connected to a 20x4 LCD screen
-on the same I2C bus, and to a gas pressure sensor (on the N2 supply cylinder) using one of the
-analog pins. It does not utilize a custom shield.
+This implementation of the control system includes four tank controllers (code and schematics are
+available on the Github repository), connected on an I2C bus to an Arduino Mega 2560 fitted with a
+W5500 Ethernet Shield. The Arduino Mega is also connected to a 20x4 LCD screen on the same I2C bus,
+and to a gas pressure sensor (on the N2 supply cylinder) using one of the analog pins. It does not
+utilize a custom shield.
 
 NOTES ON POWER: 
 Although the Arduino Mega 2560 board is rated for a 7-13VDC power supply, we have found that 
