@@ -21,6 +21,8 @@ switch can be flipped when the sensor(s) are in a known value/standard and the r
 and those values extracted to obtain calibration curves for each sensor. The calibration coefficients
 can then be input into the relevant text files (TCAL.TXT, DOCAL.TXT, PHCAL.TXT).
 
+Default filename for the text file is CALFILE.TXT, but this can be modified on the variable logFile[]
+
 
 */
 
@@ -54,7 +56,7 @@ SdFile myFile;
 boolean buttonState1;
 boolean buttonState2;
 boolean calPoint = 0;
-char logFile[] = "CALFILE.TXT";
+char logFile[] = "CALFILE.TXT"; 
 
   // Variables to store sensor readings
   int currentTemp, currentDO, currentpH;
