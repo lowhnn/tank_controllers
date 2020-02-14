@@ -2,7 +2,7 @@
 
 This repository accompanies the manuscript:
 
-Low NHN, Ng CA, Micheli F. A low-cost control system for multi-stressor climate change experiments.
+Low NHN, Ng CA, Micheli F. A low-cost modular control system for multi-stressor experiments.
 
 
 **Folders and files in repository:**
