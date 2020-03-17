@@ -4,7 +4,7 @@ TANK CONTROLLER CODE
 
 This is code that accompanies the manuscript:
 
-Low NHN, Ng CA, Micheli F. A low-cost control system for multi-stressor climate change experiments.
+Low NHN, Ng CA, Micheli F. A low-cost modular control system for multi-stressor experiments.
 
 Photos, diagrams, schematics, component descriptions and part numbers, and a general description of the 
 controller's functions are all available in the manuscript and stored on the Github repository 
